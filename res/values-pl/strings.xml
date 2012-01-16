@@ -20,6 +20,7 @@
     <string name="no" msgid="6731231425810196216">"Nie"</string>
     <string name="device_info_default" msgid="7847265875578739287">"Nieznany"</string>
     <string name="header_category_wireless_networks" msgid="4944823405420438623">"SIECI ZWYKŁE I BEZPRZEWODOWE"</string>
+    <string name="header_category_cyanogenmod">"CYANOGENMOD"</string>
     <string name="header_category_device" msgid="5781174212691167553">"URZĄDZENIE"</string>
     <string name="header_category_personal" msgid="6225932173498802187">"OSOBISTE"</string>
     <string name="header_category_system" msgid="2073558547468647128">"SYSTEM"</string>
@@ -224,6 +225,8 @@
     <string name="band_mode_set" msgid="5730560180249458484">"Ustaw"</string>
     <string name="band_mode_failed" msgid="1495968863884716379">"Niepowodzenie"</string>
     <string name="band_mode_succeeded" msgid="2701016190055887575">"Powodzenie"</string>
+    <string name="launcher_settings_title">"Trebuchet"</string>
+    <string name="device_settings_title">Opcje urządzenia"</string>
     <string name="sdcard_changes_instructions" msgid="1364712901180556244">"Zmiany zostaną wprowadzone po ponownym podłączeniu przewodu USB"</string>
     <string name="sdcard_settings_screen_mass_storage_text" msgid="3741220147296482474">"Włącz pamięć masową USB"</string>
     <string name="sdcard_settings_total_bytes_label" msgid="9184160745785062144">"Łącznie bajtów:"</string>
@@ -689,6 +692,9 @@
     <string name="baseband_version" msgid="1848990160763524801">"Wersja pasma podstawowego"</string>
     <string name="kernel_version" msgid="9192574954196167602">"Wersja jądra"</string>
     <string name="build_number" msgid="3075795840572241758">"Numer kompilacji"</string>
+    <string name="mod_version">"Wersja CyanogenMod""</string>
+    <string name="build_date">"Data buildu""</string>
+    <string name="build_date_default">""2012-01-01-0000"</string>
     <string name="device_info_not_available" msgid="8062521887156825182">"Niedostępna"</string>
     <string name="device_status_activity_title" msgid="1411201799384697904">"Informacje o telefonie"</string>
     <string name="device_status" msgid="607405385799807324">"Informacje o telefonie"</string>
@@ -1131,6 +1137,9 @@
     <string name="development_settings_title" msgid="215179176067683667">"Opcje programistyczne"</string>
     <string name="development_settings_summary" msgid="1815795401632854041">"Ustaw opcje związane z programowaniem aplikacji."</string>
     <string name="enable_adb" msgid="7982306934419797485">"Debugowanie USB"</string>
+     <string name="adb_over_network">"ADB przez sieć"</string>
+    <string name="adb_over_network_summary">"Włącz debugowanie TCP/IP przez interfejsy sieciowe (Wi-Fi, sieci USB). To ustawienie jest czyszczone po restarcie."</string>    
+    <string name="adb_over_network_warning">"UWAGA: Kiedy włączone jest ADB przez sieć, urządzenie jest narażone na ataki ze wszystkich podłączonych sieci, w tym z sieci GSM!\n\nUżywaj go tylko dla połączeń z zaufanymi sieciami.\n\nCzy na pewno chcesz włączyć tę funkcję?"</string>
     <string name="enable_adb_summary" msgid="4881186971746056635">"Tryb debugowania, gdy podłączone jest USB"</string>
     <string name="verifier_device_identifier" msgid="5079997701152411060">"ID urządzenia programisty"</string>
     <string name="verifier_device_identifier_not_available" msgid="1272065992066977324">"Informacje o urządzeniu są niedostępne."</string>
@@ -1463,6 +1472,8 @@
     <string name="app_process_limit_title" msgid="4280600650253107163">"Limit procesów w tle"</string>
     <string name="show_all_anrs" msgid="28462979638729082">"Pokaż wszystkie ANR"</string>
     <string name="show_all_anrs_summary" msgid="641908614413544127">"Pokaż okno Aplikacja Nie Odpowiada dla aplikacji w tle."</string>
+    <string name="kill_app_longpress_back">"Zakończ klawiszem cofania"</string>
+    <string name="kill_app_longpress_back_summary">"Zakończ bieżącą aplikację przytrzymując klawisz cofania"</string>
     <string name="data_usage_summary_title" msgid="3804110657238092929">"Użycie danych"</string>
     <string name="data_usage_cycle" msgid="5652529796195787949">"Cykl transmisji danych"</string>
     <string name="data_usage_menu_roaming" msgid="8042359966835203296">"Dane w roamingu"</string>
